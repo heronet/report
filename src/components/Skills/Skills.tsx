@@ -36,13 +36,15 @@ const Skills = () => {
   return (
     <div className={classes.container} id="skills">
       <div className={classes.content}>
-        <h1>Skills</h1>
-        <span>
-          Throughout the years, I have diligently honed my expertise by
-          acquiring a wealth of knowledge and skills across a diverse spectrum
-          of programming languages and cutting-edge tools. Allow me to share
-          just a glimpse of the remarkable arsenal I have cultivated.
-        </span>
+        <div className={classes.text}>
+          <h1>Skills</h1>
+          <span>
+            Throughout the years, I have diligently honed my expertise by
+            acquiring a wealth of knowledge and skills across a diverse spectrum
+            of programming languages and cutting-edge tools. Allow me to share
+            just a glimpse of the remarkable arsenal I have cultivated.
+          </span>
+        </div>
         <div className={classes.skills}>
           {Object.entries(skills).map(([key, val]) => (
             <Skill category={key} items={val} />
