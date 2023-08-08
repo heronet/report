@@ -15,16 +15,16 @@ const Hero = () => {
       <div className={classes.intro}>
         <div className={classes.text}>
           <div className={classes.title}>
-            My name <br />
-            is <span className={classes.name}>Sirat</span>.
+            <span className={classes.name}> I'm Sirat</span>, <br />
+            <span>A Software Developer.</span>
           </div>
           <div className={classes.desc}>
-            I develop Fullstack Web applications. I love to make my ideas come
-            to life using modern technologies.
+            I develop Mobile and Full-stack Web applications. I love to make my
+            ideas come to life using modern technologies.
           </div>
           <span></span>
           <a href="/resume.pdf" className={classes.resume}>
-            View Resume
+            My Resume
           </a>
         </div>
         <div className={classes.details}>
@@ -34,7 +34,7 @@ const Hero = () => {
               <li key={each.id} className={classes.item}>
                 <img
                   src={`${each.title}.svg`}
-                  alt="soc"
+                  alt={each.title}
                   className={classes.icon}
                 />
                 <a href={each.url}>{each.title}</a>
