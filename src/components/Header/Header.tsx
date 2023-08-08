@@ -2,9 +2,9 @@ import MenuButton from "../../ui/MenuButton";
 import classes from "./header.module.scss";
 
 const links = [
-  { id: 1, title: "Projects", url: "#hero" },
-  { id: 2, title: "Skills", url: "/" },
-  { id: 3, title: "About", url: "/" },
+  { id: 1, title: "Skills", url: "#skills" },
+  { id: 2, title: "Projects", url: "#projects" },
+  { id: 3, title: "About", url: "#about" },
 ];
 
 const Header = () => {
