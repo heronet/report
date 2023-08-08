@@ -1,0 +1,53 @@
+.container {
+  background-color: black;
+  color: white;
+  width: 100%;
+  .links-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 20px;
+    .brand {
+      font-size: 1.5rem;
+      color: royalblue;
+      font-weight: 600;
+      text-transform: uppercase;
+      .xyz {
+        color: white;
+      }
+    }
+    .links {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+      .link {
+        cursor: pointer;
+      }
+      .menu {
+        display: none;
+        color: white;
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+  @media (max-width: 600px) {
+    .links-container {
+      padding: 0 15px;
+      .brand {
+        font-size: 1.2rem;
+      }
+      .links {
+        gap: 0px;
+        .link {
+          display: none;
+        }
+        .menu {
+          display: block;
+        }
+      }
+    }
+  }
+}
