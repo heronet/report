@@ -1,5 +1,5 @@
 import "./App.css";
-// import About from "./components/About/About";
+import About from "./components/About/About";
 // import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
@@ -13,8 +13,8 @@ function App() {
       <Hero />
       <Skills />
       <Projects />
-      {/* <About />
-      <Footer /> */}
+      <About />
+      {/* <Footer /> */}
     </>
   );
 }
