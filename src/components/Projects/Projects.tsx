@@ -6,6 +6,7 @@ const projects: ProjectType[] = [
   {
     id: 1,
     title: "Connect",
+    subtitle: "A Full-stack social media platform",
     techs: [
       { id: 1, title: "Angular" },
       { id: 2, title: "ASP.NET Core" },
@@ -16,13 +17,18 @@ const projects: ProjectType[] = [
       { id: 7, title: "Docker" },
       { id: 8, title: "Google Cloud" },
     ],
+    links: [
+      { id: 1, title: "Source", url: "https://github.com/heronet/connectui" },
+      { id: 2, title: "Live", url: "https://connect-si.web.app/" },
+    ],
     imgUrl: "/imgs/connect.jpg",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium soluta et ratione porro corrupti accusantium eaque harum eius, qui totam beatae molestias delectus cupiditate aperiam ullam quod saepe magnam eum.",
+      "A full-stack social media application that supports real-time chat, posts, comments, photo uploads and user authentication using JWT.",
   },
   {
     id: 2,
     title: "Sellnet",
+    subtitle: "A Full-stack E-commerce platform",
     techs: [
       { id: 1, title: "Angular" },
       { id: 2, title: "ASP.NET Core" },
@@ -33,13 +39,23 @@ const projects: ProjectType[] = [
       { id: 7, title: "Docker" },
       { id: 8, title: "Google Cloud" },
     ],
+    links: [
+      { id: 1, title: "Source", url: "https://github.com/heronet/sellnet" },
+      { id: 2, title: "Live", url: "https://sellnet-si.web.app" },
+      {
+        id: 3,
+        title: "Google Play",
+        url: "https://play.google.com/store/apps/details?id=com.heronet.sellnetbeta&hl=en&gl=US",
+      },
+    ],
     imgUrl: "/imgs/sellnet.jpg",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium soluta et ratione porro corrupti accusantium eaque harum eius, qui totam beatae molestias delectus cupiditate aperiam ullam quod saepe magnam eum.",
+      "A full-stack E-commerce application with user authentication. It supports product listing with photo uploads. Also availabe on Android.",
   },
   {
     id: 3,
     title: "MCQ",
+    subtitle: "A Full-stack MCQ Exam platform",
     techs: [
       { id: 1, title: "Angular" },
       { id: 2, title: "ASP.NET Core" },
@@ -50,9 +66,13 @@ const projects: ProjectType[] = [
       { id: 7, title: "Docker" },
       { id: 8, title: "Google Cloud" },
     ],
+    links: [
+      { id: 1, title: "Source", url: "https://github.com/heronet/ksx" },
+      { id: 2, title: "Live", url: "https://mcq-si.web.app" },
+    ],
     imgUrl: "/imgs/mcq.jpg",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium soluta et ratione porro corrupti accusantium eaque harum eius, qui totam beatae molestias delectus cupiditate aperiam ullam quod saepe magnam eum.",
+      "A full-stack 'Multiple Choice Questions' exam platform. It supports adding questions by users with advanced features like MathJax.",
   },
 ];
 const Projects = () => {

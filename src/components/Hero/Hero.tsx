@@ -22,7 +22,6 @@ const Hero = () => {
             I develop Mobile and Full-stack Web applications. I love to make my
             ideas come to life using modern technologies.
           </div>
-          <span></span>
           <a href="/pdfs/resume.pdf" className={classes.resume}>
             My Resume
           </a>

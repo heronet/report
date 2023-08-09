@@ -14,7 +14,17 @@ const Project = ({ project }: Props) => {
       </div>
       <div className={classes.info}>
         <h2 className={classes.title}>{project.title}</h2>
+        <h3 className={classes.subtitle}>{project.subtitle}</h3>
         <span>{project.description}</span>
+        <ul className={classes.links}>
+          {project.links.map((link) => (
+            <li key={link.id}>
+              <a href={link.url} className={classes.link}>
+                {link.title}
+              </a>
+            </li>
+          ))}
+        </ul>
         <h3>Tech used</h3>
         <ul className={classes.tech}>
           {project.techs.map((item) => (
