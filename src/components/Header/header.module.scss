@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 768px;
+    max-width: 1366px;
     margin: 0 auto;
     padding: 0 20px;
     .brand {
@@ -35,6 +35,11 @@
         width: 20px;
         height: 20px;
       }
+    }
+  }
+  @media (min-width: 768px) {
+    .links-container {
+      padding: 0 40px;
     }
   }
   @media (max-width: 600px) {

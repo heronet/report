@@ -9,7 +9,7 @@ type Props = {
 
 const TechItem = ({ tech }: Props) => {
   return (
-    <li key={tech.id} className={classes.item}>
+    <li key={tech.id} className={`${classes.item}`}>
       <img
         src={`/icons/${tech.title}.svg`}
         alt={tech.title}

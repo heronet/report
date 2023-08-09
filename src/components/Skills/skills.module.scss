@@ -1,5 +1,5 @@
 .content {
-  max-width: 768px;
+  max-width: 1366px;
   margin: 0 auto;
   padding: 0 20px;
 
@@ -9,6 +9,7 @@
     justify-content: space-between;
     gap: 20px;
   }
+
   @media (max-width: 600px) {
     .skills {
       flex-direction: column;
@@ -19,5 +20,10 @@
       align-items: center;
       text-align: center;
     }
+  }
+}
+@media (min-width: 768px) {
+  .content {
+    padding: 0 40px;
   }
 }
