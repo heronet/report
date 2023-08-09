@@ -23,17 +23,17 @@ const Hero = () => {
             ideas come to life using modern technologies.
           </div>
           <span></span>
-          <a href="/resume.pdf" className={classes.resume}>
+          <a href="/pdfs/resume.pdf" className={classes.resume}>
             My Resume
           </a>
         </div>
         <div className={classes.details}>
-          <img src="/me.jpeg" alt="me" className={classes.img} />
+          <img src="/imgs/me.jpeg" alt="me" className={classes.img} />
           <ul className={classes.social}>
             {socials.map((each) => (
               <li key={each.id} className={classes.item}>
                 <img
-                  src={`${each.title}.svg`}
+                  src={`/icons/${each.title}.svg`}
                   alt={each.title}
                   className={classes.icon}
                 />

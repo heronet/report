@@ -44,6 +44,9 @@
         display: block;
         max-width: 200px;
         border-radius: 50%;
+        box-shadow: 8px 10px 133px -7px rgba(65, 105, 225, 0.73);
+        -webkit-box-shadow: 8px 10px 133px -7px rgba(65, 105, 225, 0.73);
+        -moz-box-shadow: 8px 10px 133px -7px rgba(65, 105, 225, 0.73);
       }
       .social {
         list-style: none;
@@ -78,6 +81,8 @@
       .text {
         .resume {
           margin-inline: auto;
+          font-size: 0.9rem;
+          padding: 5px 10px;
         }
         .title {
           font-size: 2.2rem;

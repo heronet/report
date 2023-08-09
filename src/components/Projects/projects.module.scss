@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  background: black;
+  color: white;
+}
+.content {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+@media (max-width: 600px) {
+  .content {
+    text-align: center;
+  }
+}

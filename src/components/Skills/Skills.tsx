@@ -47,7 +47,7 @@ const Skills = () => {
         </div>
         <div className={classes.skills}>
           {Object.entries(skills).map(([key, val]) => (
-            <Skill category={key} items={val} />
+            <Skill category={key} items={val} key={key} />
           ))}
         </div>
       </div>

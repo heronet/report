@@ -1,3 +1,4 @@
+import TechItem from "../../../ui/TechItem/TechItem";
 import classes from "./skill.module.scss";
 
 type Props = {
@@ -11,14 +12,7 @@ const Skill = (props: Props) => {
       <h2 className={classes.name}>{props.category}</h2>
       <ul className={classes.list}>
         {props.items.map((skill) => (
-          <li key={skill.id} className={classes.item}>
-            <img
-              src={`${skill.title}.svg`}
-              alt={skill.title}
-              className={classes.img}
-            />
-            <span className={classes.title}>{skill.title}</span>
-          </li>
+          <TechItem tech={skill} key={skill.id} />
         ))}
       </ul>
     </div>
