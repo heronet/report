@@ -11,6 +11,7 @@
     max-width: 1366px;
     margin: 0 auto;
     padding: 0 20px;
+    position: relative;
     .brand {
       font-size: 1.5rem;
       color: royalblue;
@@ -37,6 +38,18 @@
         color: white;
         width: 20px;
         height: 20px;
+      }
+    }
+    .dropdown {
+      list-style: none;
+      background-color: black;
+      border-radius: 5px;
+      padding: 0;
+      position: absolute;
+      right: 10px;
+      top: 50px;
+      .dropitem {
+        padding: 10px;
       }
     }
   }
