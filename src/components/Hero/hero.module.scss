@@ -2,11 +2,10 @@
   width: 100%;
   background-color: black;
   color: white;
-  padding: 50px 0;
   .intro {
     max-width: 1366px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 40px 20px;
     display: flex;
     justify-content: space-between;
     gap: 50px;
@@ -49,9 +48,9 @@
         display: block;
         max-width: 200px;
         border-radius: 50%;
-        box-shadow: 0px 0px 156px 23px rgba(65, 105, 225, 0.75);
-        -webkit-box-shadow: 0px 0px 156px 23px rgba(65, 105, 225, 0.75);
-        -moz-box-shadow: 0px 0px 156px 23px rgba(65, 105, 225, 0.75);
+        box-shadow: 0px 0px 63px 2px rgba(65, 105, 225, 0.75);
+        -webkit-box-shadow: 0px 0px 63px 2px rgba(65, 105, 225, 0.75);
+        -moz-box-shadow: 0px 0px 63px 2px rgba(65, 105, 225, 0.75);
       }
       .social {
         list-style: none;
@@ -77,7 +76,7 @@
   }
   @media (min-width: 768px) {
     .intro {
-      padding: 0 40px;
+      padding: 80px 40px 40px 40px;
     }
   }
   @media (max-width: 600px) {

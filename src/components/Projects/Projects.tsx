@@ -79,7 +79,7 @@ const Projects = () => {
   return (
     <div className={classes.container} id="projects">
       <div className={classes.content}>
-        <h1>Works</h1>
+        <h1>My Works</h1>
         <div className={classes.projects}>
           {projects.map((project) => (
             <Project project={project} key={project.id} />

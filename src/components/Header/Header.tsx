@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <div className={classes.container}>
       <div className={classes["links-container"]}>
-        <a href="/" className={classes.brand}>
+        <a href="#" className={classes.brand}>
           Heronet<span className={classes.xyz}>.xyz</span>
         </a>
         {/* For big screens */}

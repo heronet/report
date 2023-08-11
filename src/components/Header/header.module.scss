@@ -2,6 +2,8 @@
   background-color: black;
   color: white;
   width: 100%;
+  position: sticky;
+  top: 0;
   .links-container {
     display: flex;
     justify-content: space-between;
@@ -41,9 +43,6 @@
   @media (min-width: 768px) {
     .links-container {
       padding: 0 40px;
-      .links {
-        padding: 20px 0;
-      }
     }
   }
   @media (max-width: 600px) {

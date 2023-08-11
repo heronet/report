@@ -1,14 +1,18 @@
+.container {
+  background-color: #000000;
+  color: white;
+}
+
 .content {
   display: flex;
   max-width: 1366px;
   margin: 0 auto;
   align-items: center;
   justify-content: center;
-  background-color: black;
-  color: white;
   padding: 0 20px;
   p {
     text-align: center;
+    margin: 20px 0;
   }
 }
 @media (min-width: 768px) {
