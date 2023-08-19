@@ -27,6 +27,28 @@ const projects: ProjectType[] = [
   },
   {
     id: 2,
+    title: "Journey",
+    subtitle: "A Full-stack hotel booking website",
+    techs: [
+      { id: 1, title: "Angular" },
+      { id: 2, title: "ASP.NET Core" },
+      { id: 3, title: "PostgreSQL" },
+      { id: 4, title: "TypeScript" },
+      { id: 5, title: "C Sharp" },
+      { id: 6, title: "SASS" },
+      { id: 7, title: "Docker" },
+      { id: 8, title: "Google Cloud" },
+    ],
+    links: [
+      { id: 1, title: "Source", url: "https://github.com/heronet/journey" },
+      { id: 2, title: "Live", url: "https://journey-si.web.app" },
+    ],
+    imgUrl: "/imgs/journey.jpg",
+    description:
+      "A full-stack hotel booking application with user authentication. It supports hotels listing by moderators with photo uploads.",
+  },
+  {
+    id: 3,
     title: "Sellnet",
     subtitle: "A Full-stack E-commerce platform",
     techs: [
@@ -53,7 +75,7 @@ const projects: ProjectType[] = [
       "A full-stack E-commerce application with user authentication. It supports product listing with photo uploads. Also availabe on Android.",
   },
   {
-    id: 3,
+    id: 4,
     title: "MCQ",
     subtitle: "A Full-stack MCQ Exam platform",
     techs: [
