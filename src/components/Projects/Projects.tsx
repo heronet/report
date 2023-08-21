@@ -19,7 +19,7 @@ const projects: ProjectType[] = [
     ],
     links: [
       { id: 1, title: "Source", url: "https://github.com/heronet/connectui" },
-      { id: 2, title: "Live", url: "https://uconnect.life//" },
+      { id: 2, title: "Live", url: "https://uconnect.life/" },
     ],
     imgUrl: "/imgs/connect.jpg",
     description:
