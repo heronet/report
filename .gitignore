@@ -23,5 +23,5 @@ dist-ssr
 *.sln
 *.sw?
 
-public/resume.pdf
+public/pdfs/resume.pdf
 .firebase
