@@ -3,7 +3,7 @@ import classes from "./skill.module.scss";
 
 type Props = {
   category: string;
-  items: { id: number; title: string }[];
+  items: { id: number; title: string; logo: string }[];
 };
 
 const Skill = (props: Props) => {
