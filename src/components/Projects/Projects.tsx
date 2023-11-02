@@ -27,6 +27,26 @@ const projects: ProjectType[] = [
   },
   {
     id: 2,
+    title: "Shakespeare AI",
+    subtitle: "A Shakespeare simulator backed by OpenAI",
+    techs: [
+      { id: 1, title: "NextJS", logo: "NextJS alt" },
+      { id: 2, title: "TailwindCSS", logo: "Tailwind" },
+      { id: 2, title: "Shadcn UI", logo: "ShadcnUI" },
+      { id: 2, title: "Vercel AI SDK", logo: "Vercel alt" },
+      { id: 2, title: "GPT 3.5 Turbo", logo: "ChatGPT" },
+      { id: 3, title: "TypeScript", logo: "TypeScript" },
+    ],
+    links: [
+      { id: 1, title: "Source", url: "https://github.com/heronet/ai-chat" },
+      { id: 2, title: "Live", url: "https://skpr.online/" },
+    ],
+    imgUrl: "/imgs/SKPR.png",
+    description:
+      "Built with NextJS, OpenAI and Vercel AI SDK, it simulates Shakespeare.",
+  },
+  {
+    id: 3,
     title: "Journey",
     subtitle: "A Full-stack hotel booking website",
     techs: [
@@ -48,7 +68,7 @@ const projects: ProjectType[] = [
       "A full-stack hotel booking application with user authentication. It supports hotels listing by moderators with photo uploads.",
   },
   {
-    id: 3,
+    id: 4,
     title: "Sellnet",
     subtitle: "A Full-stack E-commerce platform",
     techs: [
@@ -75,7 +95,7 @@ const projects: ProjectType[] = [
       "A full-stack E-commerce application with user authentication. It supports product listing with photo uploads. Also availabe on Android.",
   },
   {
-    id: 4,
+    id: 5,
     title: "MCQ",
     subtitle: "A Full-stack MCQ Exam platform",
     techs: [

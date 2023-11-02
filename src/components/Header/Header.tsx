@@ -15,7 +15,7 @@ const Header = () => {
     <div className={classes.container}>
       <div className={classes["links-container"]}>
         <a href="#" className={classes.brand}>
-          Heronet<span className={classes.xyz}>.xyz</span>
+          Sirat<span className={classes.xyz}>.site</span>
         </a>
         <ul className={classes.links}>
           {links.map((link) => (
