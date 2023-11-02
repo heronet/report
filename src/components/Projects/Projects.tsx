@@ -32,10 +32,10 @@ const projects: ProjectType[] = [
     techs: [
       { id: 1, title: "NextJS", logo: "NextJS alt" },
       { id: 2, title: "TailwindCSS", logo: "Tailwind" },
-      { id: 2, title: "Shadcn UI", logo: "ShadcnUI" },
-      { id: 2, title: "Vercel AI SDK", logo: "Vercel alt" },
-      { id: 2, title: "GPT 3.5 Turbo", logo: "ChatGPT" },
-      { id: 3, title: "TypeScript", logo: "TypeScript" },
+      { id: 3, title: "Shadcn UI", logo: "ShadcnUI" },
+      { id: 4, title: "Vercel AI SDK", logo: "Vercel alt" },
+      { id: 5, title: "GPT 3.5 Turbo", logo: "ChatGPT" },
+      { id: 6, title: "TypeScript", logo: "TypeScript" },
     ],
     links: [
       { id: 1, title: "Source", url: "https://github.com/heronet/ai-chat" },
